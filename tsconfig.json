@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "removeComments": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "outFile": "dist/bundle.js",
+    "watch": true,
+    "noImplicitAny": true
+  },
+  "include":[
+    "src/*"
+  ]
+}
