@@ -1,0 +1,9 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Cousine:400,400i,700|Libre+Baskerville:400,400i,700&subset=latin-ext");
+
+h1{
+    font-family: "Libre Baskerville", serif;
+}
+
+header{
+    margin-bottom: 10px;
+}

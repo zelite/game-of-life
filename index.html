@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Of Life</title>
+  <link rel="stylesheet" href="style/mini-default.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Conway's Game of Life</h1>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <fieldset>
+          <legend>Board Dimensions</legend>
+        <div class="input-group">
+          <label for="nrows">Rows:</label>
+          <input type="number" id="nrows" value=15>
+        </div>
+        <div class="input-group">
+          <label for="ncols">Cols:</label>
+          <input type="number" id="ncols" value=20>
+          <button class="small" id="save">Save</button>
+        </div>
+      </fieldset>
+        <button class="small" id="start">Start animation</button>
+        <button class="small" id="stop">Stop animation</button>
+        <button class="small" id="clear">Clear the board</button>
+        <button class="small" id="random">Randomize</button>
+      
+        <div><strong>Tip:</strong> Click on the cells to change their status.</div>
+      </div>
+      <div class="col-md-9">
+
+        <canvas id="life">
+        </canvas>
+      </div>
+
+    </div>
+
+
+  </main>
+  <footer>made by <a href="https://zelite.github.io">Zelite</a></footer>
+
+  <script src="bundle.js" charset="utf-8"></script>
+</body>
+
+</html>
