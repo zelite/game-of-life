@@ -1,4 +1,4 @@
-# Conway's Game of Life
+# [Conway's Game of Life](https://zelite.github.io/game-of-life)
 _von Zelite_
 
 ## Systemanforderung
